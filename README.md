@@ -1,4 +1,4 @@
-# mern-blog
+# Motivir - A MERN Stack Blog
 
 ## Reach out:
 
