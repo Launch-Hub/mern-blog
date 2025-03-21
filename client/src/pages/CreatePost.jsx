@@ -44,7 +44,7 @@ export default function CreatePost() {
             setImageUploadError(null);
             setFormData({ ...formData, image: downloadURL });
           });
-        }
+        },
       );
     } catch (error) {
       setImageUploadError("Image upload failed");

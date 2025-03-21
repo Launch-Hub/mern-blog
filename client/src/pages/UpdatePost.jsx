@@ -69,7 +69,7 @@ export default function UpdatePost() {
             setImageUploadError(null);
             setFormData({ ...formData, image: downloadURL });
           });
-        }
+        },
       );
     } catch (error) {
       setImageUploadError("Image upload failed");

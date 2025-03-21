@@ -2,25 +2,16 @@ import mongoose from "mongoose";
 
 const commentSchema = new mongoose.Schema(
   {
-    content: {
+    name: {
       type: String,
       required: true,
     },
-    postId: {
+    slug: {
       type: String,
       required: true,
     },
-    userId: {
+    description: {
       type: String,
-      required: true,
-    },
-    likes: {
-      type: Array,
-      default: [],
-    },
-    numberOfLikes: {
-      type: Number,
-      default: 0,
     },
   },
   { timestamps: true },

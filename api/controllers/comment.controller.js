@@ -68,7 +68,7 @@ export const editComment = async (req, res, next) => {
       {
         content: req.body.content,
       },
-      { new: true }
+      { new: true },
     );
     res.status(200).json(editedComment);
   } catch (error) {
