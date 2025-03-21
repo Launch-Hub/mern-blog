@@ -4,16 +4,17 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "fed": "pnpm install && npm run dev --prefix client",
-    "dev": "nodemon api/index.js",
+    "bed": "nodemon api/index.js",
+    "dev": "pnpm install && npm run dev --prefix client",
     "start": "node api/index.js",
+    "start-mongo": "start start-localdb.bat",
     "build": "npm install && npm install --prefix client && npm run build --prefix client"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
+    "bcryptjs": "^2.4.net3",
     "cookie-parser": "^1.4.6",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
