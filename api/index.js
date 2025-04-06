@@ -11,7 +11,7 @@ import commentRoutes from "./routes/comment.route.js";
 
 dotenv.config();
 
-const port = process.env.BE_PORT || 3000;
+const port = process.env.BE_PORT || 5000;
 const __dirname = path.resolve();
 const app = express();
 

@@ -1,4 +1,4 @@
-import CallToAction from "../components/CallToAction";
+import CallToAction from "../components/shared/CallToAction";
 
 export default function Projects() {
   return (
